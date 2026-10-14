@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ação Digital - Acesso Restrito</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="login-container">
+        <div class="brand-header">
+            <div class="logo-box">
+                <i class="fa-solid fa-mobile-screen"></i>
+            </div>
+            <h1>Ação Digital</h1>
+            <p>Acesso Restrito ao Sistema</p>
+        </div>
+
+        <div class="login-card">
+            <h2>Acesso Restrito</h2>
+            <p class="subtitle">Área exclusiva para administradores</p>
+
+            <form id="loginForm">
+                <div class="input-group">
+                    <label for="email">E-MAIL</label>
+                    <div class="input-wrapper">
+                        <i class="fa-regular fa-envelope prefix-icon"></i>
+                        <input type="email" id="email" placeholder="Digite seu e-mail" required>
+                    </div>
+                </div>
+
+                <div class="input-group">
+                    <label for="senha">SENHA</label>
+                    <div class="input-wrapper">
+                        <i class="fa-solid fa-lock prefix-icon"></i>
+                        <input type="password" id="senha" placeholder="Digite sua senha" required>
+                        <i class="fa-regular fa-eye toggle-password" id="togglePassword"></i>
+                    </div>
+                </div>
+
+                <button type="submit" class="btn-submit">Entrar</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
