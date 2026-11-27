@@ -1,0 +1,9 @@
+com\acaodigital\api\controller\AcaoSocialController.class
+com\acaodigital\api\controller\UsuarioController.class
+com\acaodigital\api\model\AcaoSocial.class
+com\acaodigital\api\service\AcaoSocialService.class
+com\acaodigital\api\service\UsuarioService.class
+com\acaodigital\api\repository\AcaoSocialRepository.class
+com\acaodigital\api\model\Usuario.class
+com\acaodigital\api\ApiApplication.class
+com\acaodigital\api\repository\UsuarioRepository.class
